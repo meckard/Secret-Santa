@@ -94,7 +94,7 @@
   }
 
   main {
-    @apply z-10 overflow-scroll relative mb-[350px];
+    @apply z-10 overflow-hidden relative mb-[350px];
   }
 
   svg {
@@ -134,6 +134,22 @@
 
   .field {
     @apply relative;
+  }
+
+  .auth-links {
+    @apply text-center text-white mb-8;
+  }
+
+  .auth-links a {
+    @apply underline hover:no-underline;
+  }
+
+  .auth-form {
+    @apply mb-10;
+  }
+
+  .error-message {
+    @apply text-orangeRed block py-2;
   }
 
   .indicator {
